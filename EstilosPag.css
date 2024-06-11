@@ -1,0 +1,632 @@
+
+*{
+    background:#ECECEC;
+    text-decoration:none;
+	list-style:none;
+	margin:0;
+	padding:0;
+    font-family: 'Courgette', cursive;
+
+}
+.botonflotante{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 30px;
+    border-radius: 6em;
+    color: white;
+    background: #D069D8;
+    border: none;
+    text-align: center;
+    padding-bottom: 7px;
+   
+}
+#elementos {
+	width: auto;
+}
+
+
+#Banner img{
+	width: 100%;
+    background: black;
+}
+
+.vista{
+	width: 33.33%;
+	float:left;
+	text-align:center;
+	color: #A9006F;
+    font-size: 2.5vw;
+   
+}
+
+
+#barranav a:hover{
+    background:#C0C0C0;
+    color:rgba(17, 71, 206, 1);
+    display: block;
+    transition: 1s;
+}
+
+
+
+.slider {
+width: 100%;
+height: auto;
+margin: auto;
+overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+    
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left:-300%;}
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    background-color:#6989D8;
+    width: 100%;
+    height: auto;
+    font-size: 4vw;
+    color:#ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    text-align: center;
+    margin: auto;
+    background:#D069D8;
+    width: 100%;
+    height: auto;
+    font-size: 4vw;
+    color:#ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+h6{
+    
+    text-align: center;
+    margin: auto;
+    background-color:#775DBF;
+    width: 100%;
+   height: auto;
+    font-size: 4vw;
+    color:#ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.categorias{
+    width: auto;
+    display: flex;
+    margin-left:15%;
+    margin-right:14%;
+}
+ .categorias img{
+     width: 100%; 
+ margin-top: 10%;
+ margin-bottom: 10%;
+ filter: brightness(70%);
+   }
+   .categorias img:hover{
+    filter: brightness(100%);
+}
+  
+
+   #Piedepagina ul{
+       display:flex;  
+   }
+   .titulo{
+       color: white;
+       text-align: center;
+       background-color:#1A1A1A;
+   }
+   #Piedepagina ul li{
+    background-color:#1A1A1A;
+    width: 1366px;
+    height: 119;
+    object-fit: cover;
+    text-align: center;
+    justify-content: center;
+align-items: center;
+padding-top: 18px;
+}
+
+
+
+.texto{
+justify-content: center;
+align-items: center;
+display: flex;
+  color: white;
+  background-color:#1A1A1A;
+  font-size: 2.5vw;
+ 
+}
+#Piedepagina ul li i {
+    margin:20px;
+    color:white;
+    background: #1A1A1A;
+}
+.textonosotros{
+    margin-top:2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#cartas{
+    margin-left: 8%;
+}
+.personaje{
+    margin-top: 2%;
+    width: 30%;
+    display: inline-block;
+}
+.personaje figure img{
+width:70%;
+display: block;
+margin-left:15.2%;
+}
+.personaje figure .capa h3{
+    margin-top: 5%;
+    text-align: center;
+    color:black;
+    font-size: 1.5vw;
+    cursor:default;
+}
+.personaje figure .capa p{
+    text-align: center;
+color: black;
+font-size: 1vw;
+cursor:default;
+margin-bottom: 5%;
+
+}
+/*
+.personaje img{
+    height: 455px;
+    object-fit: cover;
+
+}
+
+.personaje{
+    width: 350px;
+    justify-content: center;
+    align-items:center;
+    display: inline-block;
+    
+    }
+
+*/
+
+.personaje figure .capa{
+transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.personaje figure:hover > .capa{
+    opacity:1;
+    visibility: visible;
+}
+
+.personaje figure .capa h3{
+    color:black;
+    margin-bottom: 2%;
+    transition: all 500ms ease-out;
+    cursor:default;
+}
+.personaje figure .capa p{
+cursor:default;
+}
+
+
+#formulario h3{
+    background: #6989D8;
+    font-size: 55px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color:#000562;
+}
+#formulario{
+    background:#484848;
+    align-items: center;
+    text-align: center; 
+    padding: 20 0px;
+    font-size: 27px;
+    width: auto;
+}
+#objetos{
+    background:#A6BFFC;
+    margin: 0 500px;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;  
+}
+#objetos input{
+    width:400px;
+    max-width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 6em;
+    border:none;
+    outline: none;
+}
+#objetos textarea{
+    width: 400px;
+    max-width: 100%;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 3em;
+    text-align: center;
+    border:none;
+    outline: none;
+    padding-top: 3px;
+}
+#objetos button{
+    width: 200px;
+    max-width: 30%;
+    height: 70px;
+    border-radius: 13px;
+    background: #D987E0;
+    font-size: 35px;
+    cursor:pointer;
+    Color:#2B2B2B;
+    border:none;
+    outline: none;
+}
+
+.contenedor-galeria{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 27px;
+    max-width: 1001px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+
+.galeria__img{
+    width: auto;
+    margin-top: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+    cursor: pointer;
+    box-sizing: border-box;
+    border: solid #775DBF 10px;
+    padding: 0;
+}
+
+
+
+.galeria__img:hover{
+    filter: brightness(100%);
+}
+.contenedor-galeria h5{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 27px;
+    
+}
+.contenedor-galeria p{
+    margin-top: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px)
+
+{
+    .contenedor-galeria{
+        width: 30%;
+    }
+    .galeria__img{
+        width: 100%;
+        border: solid #775DBF 6px;
+    }
+    .contenedor-galeria h5{
+        font-size: 22px;
+        font-size: 3vw;
+        margin-top: 3%;
+        
+    }
+    .contenedor-galeria p{
+        font-size: 13px;
+        font-size: 1.5vw;
+        margin-top: 3%;
+    }
+}
+
+
+/*
+@media screen and (max-width:900px)
+ {
+    .botonflotante{
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    #banner{
+        height: 210;
+        width: 900px;    
+        background-image: url("imagenes/banner2.png");
+    }
+    #barranav{
+        width: 900px;
+    }
+    .vista{
+        width: 300px;
+    }
+    .categorias img{
+        
+        width: 300px;
+      }
+
+
+      #Piedepagina ul li{
+        width: 301px;
+      }
+      
+     
+h6{
+    float: left;
+    width: 900px;
+}
+
+h4{
+    float: left;
+    width: 900px;
+}
+
+.contenedor-galeria{
+ width: 65%;
+  margin-left: 5px;
+}
+    .galeria__img{
+        width: 380px;
+        border: 10px solid #775DBF;
+    }
+    .contenedor-galeria .text h5{
+
+        font-size: 19px;
+        text-align: center;
+        margin-left: auto;
+    }
+    #formulario{
+        width: 900px;
+    }
+    #objetos{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+
+    #cartas{
+        max-width: 900px; 
+        
+    }
+    .personaje img{
+        height: 300px;
+        object-fit: cover;
+    
+    }
+    
+    .personaje{
+        width: 200px;
+        justify-content: center;
+        align-items:center;
+        display: inline-block;
+        
+        }
+    
+    
+    .personaje figure{
+        position: relative;
+        height: 300px;
+        width: 200px;
+        overflow:hidden;
+        border-radius: 6px;
+        margin-left: 65px;
+        
+    }
+    
+    .personaje figure img{
+        width: 200px;
+        transition: all 500ms ease-out;
+        display: inline-flex;
+    }
+    .personaje figure .capa{
+        width: 200px;
+        height: 300px; 
+    }
+    .personaje figure:hover > .capa{
+        opacity:1;
+        visibility: visible;
+    }
+    .personaje figure:hover > .capa h3{
+        margin-top: 100px;
+    }
+    .personaje figure .capa h3{
+        font-size: 20;
+    }
+    .personaje figure .capa p{
+    font-size: 15px;
+    }
+    .texto{
+        font-size: 20px;
+        margin-left: -30px;
+
+    }
+    }
+    
+
+    @media screen and (max-width:500px) 
+ {
+    .botonflotante{
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    #banner{
+        height: 210;
+        width: 500px;    
+        background-image: url("imagenes/banner2.png");
+    }
+    #barranav{
+        width: 500px;
+    }
+    .vista{
+        width: 161px;
+        font-size: 21px;    
+        margin-bottom: -10px;   
+    }
+ 
+    .categorias img{
+        
+        width: 163.2px;
+        height: 250px;
+      }
+
+
+      #Piedepagina ul li{
+        width: 301px;
+      }
+h1{
+    width: 490px;
+    margin-left: 0px;
+}
+     
+h6{
+    width: 490px;
+    margin-left: 0px;
+}
+
+h4{
+    width: 490px;
+    margin-left: 0px;  
+}
+
+.contenedor-galeria{
+ width: 65%;
+  margin-left: 5px;
+}
+    .galeria__img{
+        width: 380px;
+        border: 10px solid #775DBF;
+    }
+    .contenedor-galeria .text h5{
+
+        font-size: 19px;
+        text-align: center;
+        margin-left: auto;
+    }
+    #formulario{
+        width: 900px;
+    }
+    #objetos{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+
+    #cartas{
+        max-width: 900px; 
+        
+    }
+    .personaje img{
+        height: 300px;
+        object-fit: cover;
+    
+    }
+    
+    .personaje{
+        width: 200px;
+        justify-content: center;
+        align-items:center;
+        display: inline-block;
+        
+        }
+    
+    
+    .personaje figure{
+        position: relative;
+        height: 300px;
+        width: 200px;
+        overflow:hidden;
+        border-radius: 6px;
+        margin-left: 65px;
+        
+    }
+    
+    .personaje figure img{
+        width: 200px;
+        transition: all 500ms ease-out;
+        display: inline-flex;
+    }
+    .personaje figure .capa{
+        width: 200px;
+        height: 300px; 
+    }
+    .personaje figure:hover > .capa{
+        opacity:1;
+        visibility: visible;
+    }
+    .personaje figure:hover > .capa h3{
+        margin-top: 100px;
+    }
+    .personaje figure .capa h3{
+        font-size: 20;
+    }
+    .personaje figure .capa p{
+    font-size: 15px;
+    }
+    .texto{
+        font-size: 20px;
+        margin-left: -30px;
+
+    }
+    }
